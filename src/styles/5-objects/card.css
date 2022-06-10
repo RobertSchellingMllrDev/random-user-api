@@ -1,0 +1,12 @@
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 7px 7px 24px #aaaaaa, -7px -7px 24px #ffffff;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 30px;
+  height: 300px;
+}
+
+.card:active {
+  box-shadow: inset 6px 6px 12px #b5b5b5, inset -6px -6px 12px #ffffff;
+}

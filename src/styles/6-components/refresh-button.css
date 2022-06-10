@@ -1,0 +1,15 @@
+.refresh-button {
+  height: 70px;
+  width: 70px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 13px #c7c7c7, -5px -5px 13px #f9f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.refresh-button:active {
+  box-shadow: inset 5px 5px 10px #cecece, inset -5px -5px 10px #f2f2f2;
+}

@@ -1,0 +1,10 @@
+/* ./styles/main.css file */
+
+@import './1-settings/index.css';
+@import './2-tools/index.css';
+@import './3-generic/index.css';
+@import './4-elements/index.css';
+@import './5-objects/index.css';
+@import './6-components/index.css';
+@import './7-trumps/index.css';
+@import './shame.css';

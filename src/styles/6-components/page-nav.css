@@ -1,0 +1,23 @@
+.page-nav-button {
+  margin: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 3px 3px 6px #c7c7c7, -3px -3px 6px #f9f9f9;
+}
+
+.page-nav-button:active {
+  box-shadow: inset 3px 3px 4px #cecece, inset -3px -3px 4px #f2f2f2;
+}
+
+.page-nav {
+  margin: auto;
+  display: flex;
+}
+
+.selected {
+  box-shadow: inset 3px 3px 4px #cecece, inset -3px -3px 4px #f2f2f2;
+}
